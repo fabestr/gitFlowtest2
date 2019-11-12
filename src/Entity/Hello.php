@@ -11,4 +11,9 @@ class Hello
     {
         return 'hello';
     }
+
+    public function helloWorld()
+    {
+        return $this->hello().' world';
+    }
 }
